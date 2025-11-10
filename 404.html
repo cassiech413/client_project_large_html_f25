@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="html5reset" href ="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>404 Page</title>
+</head>
+<body>
+    <div class="skip"><a href = "#main-content">Skip to Main Content</a></div>
+  <header>
+      <img src="images/image.png" alt="UMSI Logo">
+      <nav>
+          <ul>
+              <li><a href = "index.html">Home</a></li>
+              <li><a href = "resume.html">Resumes</a></li>
+              <li><a href = "networking.html">Networkings</a></li>
+              <li><a href = "interview.html">Interview</a></li>
+          </ul>
+      </nav>
+      <h1>OOOPS! We lost this page!</h1>
+    </header>
+    <main id ="main-content">
+        <section class ="error">
+            <p>This is not the page you are looking for!</p>
+            <p>Click the navigation bar above to return to Home page.</p>
+            <img src="images/404.png" alt="A 404 error with a robot sitting on the ground.">
+        </section>
+    </main>
+    <footer>
+        <p>© Copywrites <span id="year"></span> UMSI Career Development Office. All rights reserved.</p>
+        <p>University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a></p>
+        <p>Contact: umsi.careers@umich.edu</p>
+    </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
